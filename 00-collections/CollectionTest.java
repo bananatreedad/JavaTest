@@ -25,5 +25,15 @@ public class CollectionTest {
 		System.out.println("\nlastIndexOf if not in the list:");
 		System.out.println("-------------------------------");
 		System.out.println(b1.lastIndexOf(1000));
+
+		System.out.println("\nadd the same value again to a sortedset:");
+		System.out.println("------------------------------------------");
+		SortedSet set = new TreeSet();
+		set.add("a");
+		set.add("a");
+		set.add("a");
+		set.add("a");
+		System.out.println("size: " + set.size());
+
 	}
 }
