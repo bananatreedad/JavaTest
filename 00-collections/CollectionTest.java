@@ -35,5 +35,27 @@ public class CollectionTest {
 		set.add("a");
 		System.out.println("size: " + set.size());
 
+
+		System.out.println("\nget the value set out of a map with same values:");
+		System.out.println("--------------------------------------------------");
+		Map m1 = new HashMap();
+		m1.put("Joni", 8);
+		m1.put("Timmy", 8);
+		m1.put("Sabrina", 9);
+
+		Set s1 = m1.entrySet();
+		System.out.println("size of set: " + s1.size());
+
+		Iterator itr = s1.iterator();		
+		while(itr.hasNext()) {
+			Object element = itr.next();
+         	System.out.println(element.toString());
+		} //seems to return key AND value
+
+		System.out.println("\nattempt to push a map into a LinkedList with constructor:");
+		System.out.println("-----------------------------------------------------------");
+		List linked = new LinkedList(m1.keySet()); //values with m1.values(), keys with m1.keySet()
+												   //and both with m1.entrySet()
+		System.out.println(linked);
 	}
 }
