@@ -57,5 +57,9 @@ public class CollectionTest {
 		List linked = new LinkedList(m1.keySet()); //values with m1.values(), keys with m1.keySet()
 												   //and both with m1.entrySet()
 		System.out.println(linked);
+
+		
+		System.out.println("\nattempt to push a map into a LinkedList with constructor:");
+		System.out.println("-----------------------------------------------------------");
 	}
 }
