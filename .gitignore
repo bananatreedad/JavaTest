@@ -12,3 +12,7 @@
 hs_err_pid*
 
 *.txt
+*.html
+*.css
+*.js
+package-list
