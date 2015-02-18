@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookShelf>
+    <book identifier="123">
+        <authors>
+            <author>Katherine Sierra</author>
+            <author>Bert Bates</author>
+        </authors>
+        <isbn>978-0071591065</isbn>
+        <publisher>Mcgraw-Hill</publisher>
+        <title>SCJP Sun Certified Programmer for Java 6 Study Guide</title>
+    </book>
+    <book identifier="777">
+        <authors>
+            <author>Christian Ullenboom</author>
+        </authors>
+        <isbn>978-3836218023</isbn>
+        <publisher>Galileo Computing</publisher>
+        <title>Java ist auch eine Insel: Das umfassende Handbuch</title>
+    </book>
+</bookShelf>
