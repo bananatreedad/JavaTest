@@ -16,3 +16,8 @@ hs_err_pid*
 *.css
 *.js
 package-list
+
+*.iml
+.idea
+
+.DS_Store
